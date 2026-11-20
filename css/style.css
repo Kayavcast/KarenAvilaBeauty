@@ -107,7 +107,7 @@ img{
 
 
 .nav-Karen-Ávila-Beauty a:hover {
-  color: #2563eb; /* Color principal de  TU MARCA*/
+  color: #b5516f; /* Color principal de  TU MARCA*/
 }
 
 
@@ -164,4 +164,41 @@ h1, h2, h3 {
     font-family: "Fraunces", 
     serif; color: var(--cafe); 
     margin: 0; 
+}
+
+.intro {
+  padding: clamp(48px, 8vh, 90px) var(--page-gutter) 38px;
+  text-align: center;
+}
+
+
+.intro-eyebrow,
+.contact-eyebrow {
+  margin-bottom: 18px;
+  color: var(--color-muted);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+
+.intro-title {
+  font-size: clamp(10px, 6vw, 78px);
+  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: -3px;
+}
+
+
+.intro-title span {
+  color: #777777;
+}
+
+
+.intro-description {
+  max-width: 520px;
+  margin: 20px auto 0;
+  color: #a6a6a6;
+  font-size: 12px;
+  line-height: 1.8;
 }

@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!-- ==== KAREN CASTILLO AVILA ====-->
+<!-- ==== ENTREGABLE 02 - KAREN ÁVILA BEAUTY====-->
+
 <html lang="es">
 <head>
    <meta charset="UTF-8">
@@ -22,8 +25,7 @@
     <header class= "header-Karen-Ávila-Beauty">
      <div class="container header-Inicio">
           <a href="#inicio" class="logo-Karen-Ávila-Beauty">
-                <img src="img/KAB1.png" alt="logo de Karen Ávila Beauty">
-
+                <img src="img/KABLOGO.png" alt="logo de Karen Ávila Beauty">
             </a>
 
          <nav class="nav-Karen-Ávila-Beauty">
@@ -40,47 +42,161 @@
           <i data-lucide="message-circle"></i> Enviar mensaje 
         </button>
 
-
-         </nav>   
-
-
-      </div>
+           </nav>   
+       </div>
+    </header>
 
 
-
-  </header>
-
+<!--Contenido principal-->
 
 
+</main>
 
-   <section id="inicio" class="hero">
-      <div class="container hero-inicio">
-        <div class="hero-text">
-          <p class="eyebrow">Always Better, Always Beauty</p>
-          <h1>Karen Ávila Beautyt</h1>
-          <p class="lead">Promociona tus productos, recibe pedidos y haz que tus clientes te encuentren desde cualquier lugar.</p>
+    <!--Seccion del Hero-->
+ <section class="intro" aria-labelledby="intro-title">
+      <p class="intro-eyebrow">BIENVENIDO A  KAREN ÁVILA BEAUTY</p>
+      <h1 class="intro-title" id="intro-title">MAKEUP.<br><span>HAIR.</span></h1>
+      <span> Para cada evento especial
+
+        </span>
+      </h1>
+      <p class="intro-description"> BEAUTY IS OUT BUSSINESS 
+
+ <!-- Galería principal: un video y dos imágenes -->
+    <section class="gallery" id="galeria" aria-label="Galería principal">
 
 
-          <div class="hero-actions">
-            <a href="#productos" class="btn primary">Ver productos</a>
-            <button type="button" class="btn outline" onclick="openWhatsApp('Hola, vi su página y me gustaría conocer sus regalos personalizados.')">Comprar por WhatsApp</button>
-          </div>
+      <!-- VIDEO -->
+      <article class="media-card media-cardvideo" data-video-card>
+        <!-- Sustituye el archivo de video por el tuyo. Se recomienda MP4  -->
+        <video
+          class="media-card media-card-video"
+          data-hover-video
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="img/KABVIDEO.mp4"
+          aria-label="Video de presentación">
+          <source src="img/KABVIDEO.mp4" type="video/mp4">
+          Tu navegador no puede reproducir este video.
+        </video>
+
+        <!-- Capa oscura que permite leer el texto sobre el video -->
+        <div class="media-card__shade" aria-hidden="true"></div>
 
 
-          <p class="trust"><i data-lucide="heart"></i> Más de 200 detalles entregados</p>
+          <!-- Texto que aparece sobre el panel -->
+        <div class="media-card__content">
+          <p class="media-card__number"> PRESENTACIÓN</p>
+          <h2 class="media-card__title">Experiencias únicas<br>Makeup</h2>
+          <a class="media-card__link" href="#contacto">Descubrir <span aria-hidden="true">↗</span></a>
         </div>
 
 
-        <div class="hero-imagen">
-          <img src="XXX" alt="XXXXX">
-          <span class="tag tag-love">Hecho con cariño</span>
-          <span class="tag tag-custom">Pedidos personalizados</span>
+        <!-- Control visible en pantallas táctiles y accesible con teclado -->
+        <button class="video-toggle" type="button" data-video-toggle aria-label="Reproducir video" aria-pressed="false">
+          <span class="video-toggle__icon" data-toggle-icon aria-hidden="true">▶</span>
+          <span class="video-toggle__text" data-toggle-text>Reproducir video</span>
+        </button>
+      </article>
+
+
+      <!--  IMAGEN 1-->
+      <article class="media-card">
+        <!-- Reemplaza trayectoria.jpg por el nombre de tu fotografía. -->
+        <img
+          class="media-card__media media-card__image"
+          src="img/GRAD1.PNG"
+          alt="Fotografía que representa mi trayectoria"
+          loading="lazy">
+
+
+        <div class="media-card__shade" aria-hidden="true"></div>
+
+
+        <div class="media-card__content">
+          <p class="media-card__number">02 / GRADUACIONES</p>
+          <h2 class="media-card__title">MAQUILLAJE<br>PEINADO</h2>
+          <a class="media-card__link" href="#contacto">Conocer más <span aria-hidden="true">↗</span></a>
         </div>
-      </div>
+      </article>
+
+
+      <!--  IMAGEN 2-->
+      <article class="media-card">
+        <!-- Reemplaza proyectos.jpg por el nombre de tu fotografía. -->
+        <img
+          class="media-card__media media-card__image"
+          src="img/SOCIAL1.JPG"
+          alt="SOCIALES"
+          loading="lazy">
+
+
+        <div class="media-card__shade" aria-hidden="true"></div>
+
+
+        <div class="media-card__content">
+          <p class="media-card__number">03 / PROYECTOS</p>
+          <h2 class="media-card__title">RESALTANDO TU <br>BELLEZA</h2>
+          <a class="media-card__link" href="#contacto">Ver galería <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+
     </section>
+<!--- FIN DE HERO -->
 
+    <!--- SECCIÓN PRODUCTOS, SERVICIOS -->
 
+    <section id="Servicios" class="Servicios">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Novias</p>
+          <h2>Conoce nuestros servicios</h2>
+          <p class="lead">
+                Descubre nuestros servicios y agenda 
+                tu cita con alguno de nuestros
+                 profesionales de la belleza 
+              </p>
+        </div>
+      </article>
 
+        <!-- SERVICIO 1 - TARJETA -->
+      <div class="product-grid">
+          <article class="product-card reveal">
+            <img src="img/XV1.png" alt="Matcha de vainilla">
+            <div class="product-body">
+              <span class="tag">XV</span>
+              <h3>Maquillaje para XV</h3>
+              <p class="price">Paquetes que incluyen prueba</p>
+              <p class="description">Especial para la piel de las quinceañeras</p>
+              <button type="button" class="btn card" onclick="openModal('modal-caja')">¡Pruébalo hoy!</button>
+            </div>
+          </article>
+
+   <section id="servicios" class="servicios"> 
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Servicios de Maquillaje y Peinado</p>
+          <h2>Conoce nuestros servicios</h2>
+          <p class="lead">Especialistas en eventos especiales</p>
+        </div>
+
+<!--SERVICIO 1-TARJETA-->
+<div class="product-grid">
+          <article class="product-card reveal">
+            <img src="xxxx" alt="DESCRIPCIÓN">
+            <div class="product-body">
+              <span class="tag">Favorito</span>
+              <h3>NOVIAS</h3>
+              <p class="price">A partir de $5,0000</p>
+              <p class="description">Bridal Experience </p>
+              <button type="button" class="btn card" onclick="openModal('modal-caja')">Ver producto</button>
+            </div>
+          </article
+
+    
 
 
 
